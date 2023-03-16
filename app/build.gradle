@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'cat.dam.andy.butterfly_garden'
+    namespace 'cat.dam.ivan.butterfly_garden'
     compileSdk 33
 
     defaultConfig {
-        applicationId "cat.dam.andy.butterfly_garden"
+        applicationId "cat.dam.ivan.butterfly_garden"
         minSdk 26
         targetSdk 33
         versionCode 1

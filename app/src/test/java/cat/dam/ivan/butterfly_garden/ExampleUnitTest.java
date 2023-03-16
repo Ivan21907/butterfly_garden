@@ -1,4 +1,4 @@
-package cat.dam.andy.butterfly_garden;
+package cat.dam.ivan.butterfly_garden;
 
 import org.junit.Test;
 

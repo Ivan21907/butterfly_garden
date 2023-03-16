@@ -1,4 +1,4 @@
-package cat.dam.andy.butterfly_garden;
+package cat.dam.ivan.butterfly_garden;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("cat.dam.andy.butterfly_garden", appContext.getPackageName());
+        assertEquals("cat.dam.ivan.butterfly_garden", appContext.getPackageName());
     }
 }
