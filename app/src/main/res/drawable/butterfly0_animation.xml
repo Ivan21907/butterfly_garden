@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+        android:oneshot="false">
+        <item android:drawable="@drawable/butterfly0_00" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_01" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_02" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_03" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_04" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_05" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_06" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_07" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_08" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_09" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_10" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_11" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_12" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_13" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_14" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_15" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_16" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_17" android:duration="50" />
+        <item android:drawable="@drawable/butterfly0_18" android:duration="50" />
+</animation-list>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_sky"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_sky"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_flowers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_garden"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_butterfly0"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/butterfly0_00"
+        android:scaleType="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <ImageView
+        android:id="@+id/iv_butterfly1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/butterfly1_00"
+        android:scaleType="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <ImageView
+        android:id="@+id/iv_butterfly2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/butterfly2_00"
+        android:scaleType="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <ImageView
+        android:id="@+id/iv_butterfly3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/butterfly3_00"
+        android:scaleType="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="580dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <ImageView
+        android:id="@+id/iv_butterfly4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/butterfly4_00"
+        android:scaleType="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="346dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/ic_pause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/ic_exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_sound"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/ic_sound_on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintStart_toEndOf="@+id/btn_play"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
